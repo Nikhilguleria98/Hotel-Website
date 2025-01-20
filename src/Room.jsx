@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import background1 from "./assets/images/background1.jpg";
+// import background1 from "./assets/images/background1.jpg";
 import { IoBedSharp } from "react-icons/io5";
 import { FaChildren } from "react-icons/fa6";
 import { IoIosContact } from "react-icons/io";
@@ -36,7 +36,7 @@ const Room = () => {
       adults: "2",
       children: "2",
       area: "200 sqft",
-      img: "./src/assets/images/vip room.jpg",
+      img: "/images/vip room.jpg",
     },
     {
       id: 2,
@@ -45,7 +45,7 @@ const Room = () => {
       adults: "2",
       children: "2",
       area: "240 sqft",
-      img: "./src/assets/images/loveroom.jpg",
+      img: "/images/loveroom.jpg",
     },
     {
       id: 3,
@@ -54,7 +54,7 @@ const Room = () => {
       adults: "2",
       children: "2",
       area: "300 sqft",
-      img: "./src/assets/images/vintage-bedroom.jpg",
+      img: "/images/vintage-bedroom.jpg",
     },
     {
       id: 4,
@@ -63,7 +63,7 @@ const Room = () => {
       adults: "2",
       children: "2",
       area: "200 sqft",
-      img: "./src/assets/images/family-room.jpg",
+      img: "/images/family-room.jpg",
     },
     {
       id: 5,
@@ -72,7 +72,7 @@ const Room = () => {
       adults: "2",
       children: "2",
       area: "260 sqft",
-      img: "./src/assets/images/asiaroom.jpg",
+      img: "/images/asiaroom.jpg",
     },
     {
       id: 6,
@@ -81,7 +81,7 @@ const Room = () => {
       adults: "2",
       children: "2",
       area: "400 sqft",
-      img: "./src/assets/images/deluxe-room-.jpg",
+      img: "/images/deluxe-room-.jpg",
     },
   ];
 
@@ -93,7 +93,7 @@ const Room = () => {
             Rooms
           </h1>
           <img
-            src={background1}
+            src="/images/background1.jpg"
             alt="Room Background"
             className="w-full h-full object-cover"
           />

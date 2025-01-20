@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import picture from "./assets/images/hotel 1.jpg";
-import pool from "./assets/images/pool.jpg";
-import swimming from "./assets/images/swimming.jpg";
-import hotelrooms1 from "./assets/images/hotel room 1.jpg";
+// import picture from "./assets/images/hotel 1.jpg";
+// import pool from "./assets/images/pool.jpg";
+// import swimming from "./assets/images/swimming.jpg";
+// import hotelrooms1 from "./assets/images/hotel room 1.jpg";
 
 const Gallery = () => {
   return (

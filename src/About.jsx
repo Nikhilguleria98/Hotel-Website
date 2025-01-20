@@ -1,5 +1,5 @@
 import React from 'react'
-import picture from './assets/images/hotel 1.jpg';
+// import picture from './assets/images/hotel 1.jpg';
 
 
 const About = () => {
@@ -17,7 +17,7 @@ Our story began in [Year], with a vision to create a welcoming haven that captur
     </div>
 
     <div className="w-full md:w-1/2 p-4">
-      <img className=" object-cover w-full h-auto md:w-[750px] md:h-auto md:mt-12 rounded-xl brightness-125" src={picture} alt="Hotel" />
+      <img className=" object-cover w-full h-auto md:w-[750px] md:h-auto md:mt-12 rounded-xl brightness-125" src="images/hotel 1.jpg" alt="Hotel" />
     </div>
   </div>
   )
