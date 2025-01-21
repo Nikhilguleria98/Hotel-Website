@@ -19,22 +19,22 @@ const FavRooms = () => {
       
             <div
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="/images/hotel pic.jpg" alt="" className="absolute inset-0 h-full w-full object-cover object-center transition duration-500 ease-in-out hover:scale-110" />        
+                <img src="/images/hotel spa.jpg" alt="" className="absolute inset-0 h-full w-full object-cover object-center transition duration-500 ease-in-out hover:scale-110" />        
             </div>
    
             <div
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                <img src="/images/hotel pic.jpg"  alt="" className="absolute inset-0 h-full w-full object-cover object-center transition duration-500 ease-in-out hover:scale-110" />
+                <img src="/images/swimming.jpg"  alt="" className="absolute inset-0 h-full w-full object-cover object-center transition duration-500 ease-in-out hover:scale-110" />
             </div>
       
             <div
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                <img src="/images/hotel pic.jpg" alt="" className="absolute inset-0 h-full w-full object-cover object-center transition duration-500 ease-in-out hover:scale-110" />
+                <img src="/images/pool.jpg" alt="" className="absolute inset-0 h-full w-full object-cover object-center transition duration-500 ease-in-out hover:scale-110" />
             </div>
          
             <div
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="/images/hotel pic.jpg"  alt="" className="absolute inset-0 h-full w-full object-cover object-center transition duration-500 ease-in-out hover:scale-110" /> 
+                <img src="/images/hotel dinner.jpg"  alt="" className="absolute inset-0 h-full w-full object-cover object-center transition duration-500 ease-in-out hover:scale-110" /> 
             </div>
            
         </div>

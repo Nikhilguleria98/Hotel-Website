@@ -39,9 +39,9 @@ const OurServices = () => {
                 <div className='flex justify-center gap-7 flex-wrap p-5 md:mt-20 mt-10'>
 
                     {
-                        data.map((currElem) => {
+                        data.map((currElem,index) => {
                             return (
-                                <div className='h-fit w-72  rounded-lg hover:shadow-lg hover:shadow-rose-500 bg-rose-300 duration-200 cursor-pointer'>
+                                <div key={index} className='h-fit w-72  rounded-lg hover:shadow-lg hover:shadow-rose-500 bg-rose-300 duration-200 cursor-pointer'>
                                     <div className='flex items-start p-5 gap-12'>
                                         {/* <FaSpa className='text-2xl text-green-500' /> */}
                                         <div className={`text-2xl  ${currElem.color}`}>
