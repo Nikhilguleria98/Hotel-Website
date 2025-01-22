@@ -18,10 +18,10 @@ const Header = () => {
       <nav className="fixed top-0 z-50 border-b">
         <div className=" flex-wrap md:justify-around justify-between md:p-3 px-10 py-3 h-fit w-screen items-center bg-white text-gray-500 flex opacity-95">
           <div>
-            <p className="text-2xl text-rose-500">Logo</p>
+            <p className="text-xl font-bold text-rose-500"> Grand Hotel</p>
           </div>
           <div>
-            <ul className="hidden md:flex gap-10">
+            <ul className="hidden md:flex gap-5">
               <li>
                 <NavLink
                   to="/"
